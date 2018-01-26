@@ -1,0 +1,124 @@
+/*TAGS NATIVAS DO HTML*/
+header{
+	background-color: #aed6f1;
+	height: 650px;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+section{
+	background-color: #fff;
+	height: 650px;
+	padding-top: 10%;
+}
+footer{
+	background-color: #252829;
+	width: 100%;
+	height: 350px;
+}
+h1{
+	text-align: center;
+	color: #0084ff;
+}
+nav{
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 64px;
+	border-bottom: 2px solid #8fbdb9;
+	z-index: 1;
+}
+nav ul{
+	float: right;
+	margin-right: 50px;
+	margin-top: -22px;
+}
+nav ul li{
+	float: left;
+	list-style-type: none;
+	margin-left: 19px;
+	margin-right:10px;
+	font-size: 15px;
+	color: #007bff;
+}
+/*ESSE NOUNDERLINE SERVE PRA TIRAR O SUBLINHADO DOS LINKS E FUNFOU*/
+a.nounderline:link{
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #0056b3;
+}
+
+form{
+	color: #696969;
+}
+
+/*FIM DAS TAG NATIVAS*/
+
+
+/*CLASSES DO HEADER*/
+.styleheader{
+	margin-top: 15%
+}
+/*FIM DAS CLASSES DO HEADER*/
+
+/*CLASSES DO Baixe App*/
+.stylesection{
+	background-color: #f8f9f9;
+}
+.stylediv{
+	margin-top: 5%;
+	text-align: center;
+}
+/*FIM DAS CLASSES DO Baixe App*/
+
+/*CLASSES DO FORM*/
+
+.style-form{
+	margin-top: 1%;
+	margin-left: 1%;
+	text-align: center;
+}
+
+.style-input{
+	width: 45%;
+	text-align: center;
+	border-radius: 10px;
+	color: #A9A9A9;
+	box-shadow:1px 1px 3px black;
+}
+
+.letra-cinza{
+	color: #A9A9A9;
+	box-shadow: 1px 1px 3px black;
+	border-radius: 10px;
+}
+/*FIM DAS CLASSES DO FORM*/
+
+/*COMEÇO DOS ID DO NAV*/
+#style-p-nav{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+/*COMEÇO DOS ID DO HEADER*/
+#styleh1-ace{
+	color: #fff;
+}
+/*FIM DOS ID DO HEADER
+
+/*COMEÇO DOS ID DO FORM*/
+#btn{
+	width: 100px;
+    height: 35px;
+    margin-left: 25px;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    color: black;
+}
+
+.ativa{
+	display: block;
+}
+.apaga{
+	display: none;
+}

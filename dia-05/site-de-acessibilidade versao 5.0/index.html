@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META PARA O NAVEGADOR SABER OS CARACTERES ESPECIAIS -->
+	<meta charset="utf-8">
+	<!-- META PARA PODER TRABALHAR COM TELAS RESPONSIVAS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title></title>
+	<!-- CSS DO BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">	
+	<!-- O MEU CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!-- AREA DA NAV -->
+		<nav>
+  			<a href="index.html" class="nounderline">
+  				<p id="style-p-nav">acessibilidade</p>
+  			</a>
+  				<div class="row">
+  					<div class="col-sm-9 offset-sm-3">
+  						<ul>
+							<li><a href="#section1" class="nounderline">Quem Somos</a></li>
+							<li>|</li>
+							<li><a href="#section2" class="nounderline">Baixar</a></li>
+							<li>|</li>
+							<li><a href="#section3" class="nounderline">Contato</a></li>
+						</ul>
+					</div>
+				</div>
+		</nav>
+	<!-- FIM DA NAV -->
+
+	<!-- AREA DO HEADER -->
+		<header class="container-fluid">
+			<div class="banner">
+				<h1 id="styleh1-ace">Acessibilidade</h1>
+			</div>
+
+			<div class="row styleheader container-fluid">
+				<div class="col-sm-3 offset-sm-3">
+					<button type="button" class="btn btn-outline-primary btn-lg btn-block">Cadastre-se</button>
+				</div>
+
+				<div class="col-sm-3 offset-sm-">
+					<button type="button" class="btn btn-outline-success btn-lg btn-block">Entrar</button>
+				</div>
+			</div>
+
+		</header>
+	<!-- FIM DA AREA DO HEADER -->
+
+	<!-- AREA DAS SECTIONS -->
+
+	<!-- SECTION QUEM SOMOS -->
+		<section class="container-fluid" id="section1">
+          <div class="row container-fluid">
+            <div class="col-sm-6 offset-sm-3">
+              <h1>Quem somos</h1>
+            </div>
+          </div>
+      	</section>
+
+	<!-- SECTION BAIXE O APP -->
+		<section class="stylesection container-fluid" id="section2">
+        	<div class="row container-fluid">
+          		<div class="col-sm-6 offset-sm-3">
+            		<h1>Baixe o App</h1>
+          		</div>
+        	</div>
+        	
+       <!-- FOTOS DO BAIXE APP ANDROID E IOS -->
+        <div class="row stylediv container-fluid">
+
+			<div class="col-sm-3 offset-sm-3">
+				<a href="https://play.google.com/store?utm_source=latam_Med&utm_medium=hasem&utm_content=Feb0217&utm_campaign=Evergreen&pcampaignid=MKT-DR-latam-br-1002290-Med-hasem-py-Evergreen-Feb0217-Text-Institucional&gclid=Cj0KCQiA-ebSBRC8ARIsAGuxJIpeyxiwbtAn5MSBpPlI0u9nNB_aLehWC6ArFKfMXKGqCW6G8KPu3ZoaAqTUEALw_wcB&gclsrc=aw.ds&dclid=COChkP7b1dgCFQ8rhwodwr4BgQ">
+					<img src="img/android.png">
+				</a>
+			</div>
+
+			<div class="col-sm-3">
+				<a href="https://itunes.apple.com/br/app/apple-store/id375380948?mt=8">
+					<img src="img/ios.png">
+				</a>
+			</div>
+
+		</div>
+		<!-- FIM DA ROW DAS FOTOS -->
+
+		<div class="row stylediv container-fluid">
+          		<div class="col-sm-6 offset-sm-3">
+            		<p> Avalie de uma forma rápida e prática a acessibilidade dos estabelecimentos que você frequenta.<br>
+				Como resultado, milhões de pessoas com dificuldade de locomoção poderão sair de casa<br>
+				mais tranquilas, pois saberão quais são os locais adaptados para recebê-las.</p>
+          		</div>
+        	</div>
+      	</section>
+
+	<!-- SECTION CONTATO -->
+
+		<section class="container-fluid" id="section3">
+        	<div class="row container-fluid">
+          		<div class="col-sm-6 offset-sm-3">
+            		<h1>Contato</h1>
+          		</div>
+        	</div>
+
+	<!-- COMEÇO DO FORMULARIO DE CONTATO-->
+    	<div class="row container-fluid">
+    		<div class="col-sm-12 style-form">
+    			<form>
+    				<legend>Formulário para contato:</legend>
+    				<input id="input1" type="text" name="nome" value="Nome" class="style-input" onclick="apagarInput('#input1')"> 
+    				<input id="input2" type="email" name="email" value="Email" class="style-input" onclick="apagarInput('#input2')"><br><br>
+    				<input id="input3" type="text" name="numero-de-celular" value="Celular" class="style-input"  onclick="apagarInput('#input3')">
+    				<input id="input4" name="empresa" value="Empresa" class="style-input" onclick="apagarInput('#input4')"><br><br>
+    				<p class="container-fluid">Assunto:</p>
+    				<select class="container-fluid letra-cinza">
+    					<option value="Cadastro-emp">Cadastro de empresas</option>
+  						<option value="Sugest">Sugestões</option>
+    				</select><br><br>	
+    				<textarea id="textarea" name="message" rows="5" cols="5" class="container-fluid letra-cinza" onclick="apagarInput('#textarea')">Deixe sua mensagem para nós</textarea><br><br>
+   	 				<button type="submit" name="Enviar" id="btn">Enviar</button>
+   	 				<button type="reset" name="Apagar" id="btn">Limpar</button>
+				</form>
+			</div>
+		</div>	
+	<!-- FIM DO FORMULARIO DE CONTATO -->
+
+      	</section>
+
+	<!-- FIM DAS SECTIONS -->
+
+	<!-- COMEÇO DO FOOTER -->
+		<footer>
+			
+			
+		</footer>
+
+		<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

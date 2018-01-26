@@ -1,0 +1,13 @@
+header{
+	background-color: #f4f4f4;
+	padding-bottom: 1%;
+	padding-top: 3%;
+}
+.coluna{
+background-color: red;
+	height: 30px;
+	text-align: center;
+}
+.espacamento{
+	margin-bottom: 10%;
+}

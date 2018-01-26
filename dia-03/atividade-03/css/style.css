@@ -1,0 +1,40 @@
+.paragrafo {
+	margin-left: 12px;
+	text-align: center;
+}
+.borda {
+	border: 3px solid black;
+	padding: 10px 8px 0px 10px;
+}
+.foto{
+	float: left;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.fototamanho{
+	width: 369px;
+
+}
+.fototamanho1{
+	width: 250px;
+
+}
+.fototamanho2{
+	width: 349px;
+
+}
+.tst{
+	padding-left: 7px;
+}
+
+@media (max-width: 600px){
+	.sumir{
+		display: none;
+	}
+	.foto{
+		display: block;
+	}
+	*{
+		margin: 0;
+	}
+}

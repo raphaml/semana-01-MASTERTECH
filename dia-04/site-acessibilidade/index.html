@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META PARA O NAVEGADOR SABER OS CARACTERES ESPECIAIS -->
+	<meta charset="utf-8">
+
+	<!-- META PARA PODER TRABALHAR COM TELAS RESPONSIVAS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Site de Acessibilidade</title>
+	<!-- CSS DO BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">	
+	<!-- O MEU CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- ESSA É A BARRA DE NAVEGAÇÃO -->
+	<div class="pos-f-t">
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="bg-dark p-4">
+				<h4 class="text-white">lOGO "IMG"</h4>
+				<span class="text-muted">"SERÁ O NOME DO SITE"</span>
+				<ul class="nav ladodireito">
+				   	<li class="nav-item">
+				   		<a class="nav-link active" href="#section1">Quem Somos?</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section2">Baixe o App</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contato</a>
+					</li>
+				</ul>
+				</div>
+			</div>
+				<nav class="navbar navbar-dark bg-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" 	aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</nav>
+	</div>
+<!-- A BARRA DE NAVEGAÇÃO ACABA AQUI -->
+
+<!-- O HEADER -->
+<header class="container-fluid sections">
+	<div class="row espacamento">
+		<!-- USANDO class="col-sm-6 offset-sm-3 ESTOU DIZENDO QUE NO BOOTSTRAP COMO ELE ENTENDO COMO 12 BLOCOS ESTA FALANDO QUE VAI TER UM ESPACO DE 3 BLOCOS PRA UM LADO 6 BLOCOS PARA O QUE ESTIVER NA DIV E MAIS 3 BLOCOS DE OUTRO LADO -->
+		<div class="col-sm-6 offset-sm-3 coluna">
+			<h1 class="titulo"> Acessibilidade</h1>
+		</div>	
+	</div>	
+
+	<div class="row espacamento">
+		<div class="col-sm-3 offset-sm-2 coluna">
+			<button type="button" class="btn btn-primary btn-lg btn-block redondo">Cadastre-se</button>
+		</div>
+
+		<div class="col-sm-3 offset-sm-2 coluna">
+			<button type="button" class="btn btn-secondary btn-lg btn-block redondo">Entrar</button>
+		</div>
+	</div>
+</header>
+<!-- O HEADER ACABA AQUI -->
+
+<!-- A PRIMEIRA SECTION -->
+<section id="section1" class="sections">
+	<div class="row espacamento">
+		<!-- USANDO class="col-sm-6 offset-sm-3 ESTOU DIZENDO QUE NO BOOTSTRAP COMO ELE ENTENDO COMO 12 BLOCOS ESTA FALANDO QUE VAI TER UM ESPACO DE 3 BLOCOS PRA UM LADO 6 BLOCOS PARA O QUE ESTIVER NA DIV E MAIS 3 BLOCOS DE OUTRO LADO -->
+		<div class="col-sm-6 offset-sm-3 coluna">
+			<h1>Quem somos?</h1>
+		</div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-6 offset-sm-3">
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/IWgb3J3yLIE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+	</iframe>
+		</div>
+	</div>
+</section>
+<!-- A PRIMEIRA SECTION ACABA AQUI -->
+
+<!-- A SEGUNDA SECTION -->
+<section id="section2" class="sections">
+	<div class="row">
+		<div class="col-sm-6 offset-sm-3 coluna">
+			<h1>Baixe o App!</h1>
+			<p> Avalie em até 30 segundos a acessibilidade dos estabelecimentos que você frequenta.<br>
+				Como resultado, milhões de pessoas com dificuldade de locomoção poderão sair de casa<br>
+				mais tranquilas, pois saberão quais são os locais adaptados para recebê-las.</p>
+		</div>
+	</div>			
+	<div class="row">
+		<div class="col-sm-4 offset-sm-2">
+			<img src="img/android.png">
+		</div>
+		<div class="col-sm-4 offset-sm-2">
+			<img src="img/ios.png">
+		</div>
+	</div>
+</section>
+<!-- A SEGUNDA SECTION ACABA AQUI -->
+
+<!-- AQUI COMEÇA O RODA-PÉ -->
+<footer>
+	
+</footer>
+<!-- AQUI ACABA O RODA-PÉ	 -->
+
+<!-- PARTE DO JS E JQUERY -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>	   

@@ -1,0 +1,31 @@
+header{
+	background-color: #f4f4f4;
+}
+nav{
+	position: fixed;
+}
+.coluna{
+/*	background-color: red;
+	height: 30px;*/
+	text-align: center;
+}
+.espacamento{
+	margin-bottom: 10%;
+}
+.ladodireito{
+	margin-left: 70%;
+}
+.sections{
+	margin-bottom: 3%;
+	padding-bottom: 7%;
+}
+.titulo{
+	margin-top:5%;
+}
+.redondo{
+	border-radius: 60px;
+}
+#section2{
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 10%
+}

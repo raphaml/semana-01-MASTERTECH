@@ -1,0 +1,67 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+nav{
+	/*USA-SE O position: fixed; PARA FAZER O nav ACOMPANHAR A PAGINA*/
+	position: fixed;
+	/*USA-SE 100% PARA QUE A nav FIQUE DE PONTA A PONTA*/
+	width: 100%;
+	height: 50px;
+	/*USA-SE O rgba QUANDO VOCÊ QUER DAR UMA TRANSPARENCIA NA COR QUANTO MAIS PROXIMO DE 0 MAIS TRANSPARENTE
+	QUANTO MAIS PERTO DE 1 MAIS PRETO IRA FICAR*/
+	background-color: rgba(0,0,0,0.8);
+}
+header{
+	padding-top: 230px;
+}
+.logo{
+	width: 50px;
+	margin-left: 20px;
+}
+.titulo{
+	font-size: 70px;
+	text-align: center;
+}
+.btn{
+	width: 250px;
+	height: 50px;
+	margin-top: 70px;
+	/*DA UMA BORDA SOLIDA DE COR PRETA COM ESPESSURA DE 1px*/
+	border: 1px solid black;
+	/*USA-SE border-radius PARA DEIXAR A BORDA DO BOTÃO ARRENDODADA */
+	border-radius: 60px;
+	/*DEIXA O TEXTO DO BOTÃO EM NEGRITO*/
+	font-weight: bold;
+	text-decoration:none; 
+}
+.btn-1{
+	background-color: #E0FFFF;
+}
+.btn-1:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: green;
+}
+.btn-2{
+	background-color: #E0FFFF;
+}
+.btn-2:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: red;
+}
+/*USANDO O @media (max-width: 600px) ESTOU DIZENDO QUE ASSIM QUE MINHA TELA FICAR COM 600 OU - px
+ela ira sofrer algumas alterações*/
+@media (max-width: 600px){
+	.titulo{
+		font-size: 30px;
+	}
+	.btn-2{
+		/*USANDO O display: block; VOCÊ OBRIGA O ITEM A DESCER UMA LINHA, DIFERENTE DO display: flex;
+		QUE OBRIGA OS ITENS A FICAREM NA MESMA LINHA*/
+		display: block;
+		text-decoration:none;
+	}
+	*{
+		margin: 0;
+	}
+
+}
